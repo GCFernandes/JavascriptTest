@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Lista de Contatos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Lista de contatos</h1>
+        <ul id = "contacts"></ul>
+
+        <h2>Cadastrar novo Contato</h2>
+        <div id = "container">
+            Codigo: <input type = "text" id = "newContactCode"><br>
+            <span id = "codeError"><br><br></span>
+            Nome: <input type = "text" id = "newContactName"><br>
+            <span id = "nameError"><br><br></span>
+            Email: <input type = "text" id = "newContactEmail"><br>
+            <span id = "emailError"><br><br></span>
+            Telefone: <input type = "text" id = "newContactPhone"><br>
+            <span id = "phoneError"><br><br></span>
+            <input type = "button" value = "Salvar contato" class="savebtn" onclick = "saveContact()">
+        </div>
+    </body>
+    <footer>
+        <script src="script.js"></script>
+    </footer>
+</html>
